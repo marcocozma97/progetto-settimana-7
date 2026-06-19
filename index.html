@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportsHub — Eventi sportivi</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+
+    <header class="site-header">
+      <h1>SportsHub</h1>
+      <p>Cerca una squadra: scopri prossime partite e ultimi risultati.</p>
+      
+      <form id="search-form" class="search-form">
+        <input type="text" id="search-input" placeholder="Scrivi il nome della squadra ..." required>
+        <button type="submit">Cerca</button>
+      </form>
+    </header>
+
+    <main class="container">
+
+      <section id="preferiti-section" class="main-section">
+        <h2><span class="star-icon">⭐</span> Le tue squadre preferite</h2>
+        <div id="preferiti-container" class="cards-grid">
+          </div>
+      </section>
+
+      <section id="risultati-section" class="main-section">
+        <h2>Squadre trovate</h2>
+        <div id="risultati-container" class="cards-grid">
+          </div>
+      </section>
+
+      <section id="dettagli-section" class="details-card" hidden>
+        </section>
+
+    </main>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
